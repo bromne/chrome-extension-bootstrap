@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "your extension name",
+    "version": "1.0.0",
+    "description": "description",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://example.com/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "main.js"
+            ]
+        }
+    ]
+}
